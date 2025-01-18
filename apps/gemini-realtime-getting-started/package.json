@@ -1,0 +1,23 @@
+{
+  "name": "gemini-realtime-getting-started",
+  "version": "1.0.0",
+  "description": "Getting started guide for Gemini Realtime API",
+  "type": "module",
+  "scripts": {
+    "example-1": "tsx src/example-1.ts",
+    "example-2": "tsx src/example-2.ts",
+    "example-3": "tsx src/example-3.ts",
+    "example-4": "tsx src/example-4.ts",
+    "example-5": "tsx src/example-5.ts",
+    "example-6": "tsx src/example-6.ts"
+  },
+  "dependencies": {
+    "ws": "^8.16.0",
+    "node-screenshots": "^0.2.2"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.10",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}

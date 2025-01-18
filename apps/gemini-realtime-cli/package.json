@@ -1,0 +1,25 @@
+{
+  "name": "@autocode2/gemini-realtime-cli",
+  "version": "1.0.0",
+  "description": "CLI interface for Gemini Realtime API",
+  "type": "module",
+  "main": "dist/cli.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "dev": "tsc --watch",
+    "cli": "tsx src/cli.ts"
+  },
+  "dependencies": {
+    "@autocode2/gemini-realtime": "workspace:*",
+    "@autocode2/media-utils": "workspace:*",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@types/ws": "^8.5.10",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}

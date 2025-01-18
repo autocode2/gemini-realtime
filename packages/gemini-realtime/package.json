@@ -1,0 +1,28 @@
+{
+  "name": "@autocode2/gemini-realtime",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./dist/realtime.js",
+    "./*": "./dist/*"
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "check-types": "tsc --noEmit",
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@types/node": "^20.11.24",
+    "@types/ws": "^8.5.13",
+    "tsx": "^4.19.2",
+    "typescript": "5.5.4"
+  },
+  "dependencies": {
+    "node-screenshots": "^0.2.1",
+    "ws": "^8.18.0"
+  }
+}
